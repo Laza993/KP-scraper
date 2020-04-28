@@ -76,7 +76,7 @@ public class Scraper {
     	Map<String, Object> answer = new LinkedHashMap<String, Object>();
     	answer.put("product", product);
 		
-    	String filePath = "C:\\Users\\laza\\Desktop\\java scraper\\imdb-scraper-master\\lazaJSONs\\laza" + prodNum + ".json";
+    	String filePath = "C:\\Users\\laza\\Desktop\\java scraper\\KP-scraper\\JSONs\\laza" + prodNum + ".json";
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.writeValue(Paths.get(filePath).toFile(), answer);
 	
